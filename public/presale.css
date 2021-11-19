@@ -1,0 +1,23 @@
+
+.presale_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0;
+}
+#status {
+    background-color: whitesmoke;
+    padding: 10%;
+    animation: blink 2s infinite
+}
+span{
+    padding: 10%;
+    border: 2px solid black;
+    border-radius: 20px;
+}
+@keyframes blink { 
+    0%{ color:rgb(231, 45, 255); } 
+    100%{ color:rgb(150, 28, 250); } 
+}

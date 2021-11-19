@@ -1,0 +1,1 @@
+export const lockerWallet = '0x972B6ce4bdcBA50D28a954D49701573D4A12Fd3a';
